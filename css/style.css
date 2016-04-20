@@ -1,0 +1,73 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: serif;
+  color: #222;
+}
+
+.wrapper {
+  background-image: url('../images/fc-bg-2.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.logo {
+  max-width: 230px;
+  height: auto;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 4em;
+  font-weight: bolder;
+  color: #000;
+}
+
+.quote {
+  font-size: 2em;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.homepage-button {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 5%;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 1.3em;
+  font-weight: normal;
+  border-radius: 6px;
+}
+
+.subscribe {
+  color: #ecb5b5;
+  border: 1px solid #ecb5b5;
+  background-color: rgba(0,0,0,.4);
+  transition: all .3s linear;
+}
+.subscribe:hover {
+  text-decoration: none;
+  background-color: #ecb5b5;
+  color: #000;
+  border-radius: 0;
+}
+
+.perky-btn {
+  color: #9ed8a7;
+  border: 1px solid #9ed8a7;
+  background-color: rgba(0,0,0,.4);
+  transition: all .3s linear;
+}
+.perky-btn:hover {
+  text-decoration: none;
+  background-color: #9ed8a7;  
+  color: #000;
+  border-radius: 0;
+}
