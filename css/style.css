@@ -39,6 +39,10 @@ h1 {
   color: #000;
 }
 
+.brands-section {
+  margin-bottom: 35px;
+}
+
 .homepage-button {
   display: inline-block;
   width: 90%;
@@ -46,7 +50,7 @@ h1 {
   padding: 20px;
   margin: 10px 5%;
   color: #000;
-  font-family: sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 1.3em;
   font-weight: normal;
   border-radius: 6px;
@@ -80,10 +84,12 @@ h1 {
 
 blockquote, blockquote footer, blockquote footer cite {
   color: #000;
+  font-size: 18px;
 }
 
 .visit-us {
   color: #000;
+  margin-bottom: 25px;
 }
 
 .visit-us p {
